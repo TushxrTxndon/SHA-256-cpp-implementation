@@ -213,6 +213,7 @@ string sha256(string input){
 }
 int main(){
     string s;
+    cout<<"Enter the string to be hashed: ";
     getline(cin,s);
     cout<<sha256(s)<<endl;
     return 0;
